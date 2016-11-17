@@ -1,0 +1,489 @@
+IoT en el model de negoci
+Girona emprèn
+1 Dec 2016
+Tags: girona emprèn, catalunya emprèn, IoT 
+
+Esteve Farrés Berenguer
+Responsable de l’àrea Hardware de l’empresa Ubikwa
+https://ubikwa.com/
+esteve.farres@gmail.com
+https://plus.google.com/u/0/+EsteveFarresBerenguer
+esteve.farres@gmail.com
+@estfarr
+
+* Agraïments
+Girona empren
+Preparar una xerrada aujuda a reolentajar les idees, no des del nostre background sino pensants en el altres.
+
+
+* Cicle de xerrades
+
+Cicle Noves tendències i empresa: les noves oportunitats de negoci que genera la irrupció del Big Data, la Internet de les coses (IoT), la Open Innovation i les noves tecnologies
+
+- Big Data : la recollida i gestió de grans volums de dades
+- IoT : la connectivitat d’objectes
+- Open Innovation : el entorns col·laboratius
+- Tecnologies disruptives: la robòtica, la intel·ligència artificial, la impressió 3D, entre moltes altres.
+
+* IoT, la conectivitat d'objectes
+La  nova  revolució  tecnològica es diu Internet de les coses ( IoT ), però exactament què és i quin és el seu impacte en la societat i l’empresa?
+
+Conèixer quines són les bases tecnològiques d’aquest fenomen i els nous paradigmes que generaran els objectes connectats. La nova connectivitat permetrà una més gran interacció amb el client, una millor resposta a les seves necessitats i una millora en eficiència i resultats a l’empresa. Com impactarà això en l’economia i la societat?
+
+Les opinions expresades són personals i no necessariament coincideixen amb les de Ubikwa Systems SLU, empresa en la que traballo.
+
+* Estructura xerrada
+- Qué hem d'entendre com IoT? Què no és IoT. 
+- Bases tecnològiques sobre la que es construeix la IoT. Que passarà amb l'arribada de IPv6.
+- Impacte econòmic esperat de la IoT. Sectors involucrats. Que implicarà Industria 4.0
+- Estem a les portes d'un nova revolució tecnològica, quin impacte tindrà en la societat.
+- Nous paradigmes associats a la societat i als objectes connectats.
+
+* Under construction
+IoT s'esta construint i per tant no es pot assegurar quin cami seguirà.
+.image image/under-construction-caution-sign-s-0816.png _ 350
+
+
+Anoteu que enteneu com IoT
+Anoteu una idea de negoci associada a la IoT que enteneu.
+
+* Scientific American
+[[https://www.scientificamerican.com/article/inventions-what-are-the-10-greatest-of-our-time/?WT.mc_id=SA_printmag_2013-11][What Are the 10 Greatest Inventions of Our Time? (1913)]]
+
+Wireless telegraphy 	97 percent
+Aeroplane 	75
+X-Ray machine 	74
+Automobile 	66
+Motion pictures 	63
+Reinforced concrete 	37
+Phonograph 	37
+Incandescent electric lamp 	35
+Steam turbine 	34
+Electric car 	34
+Calculating machine 	33
+Internal combustion engine 	33
+
+* Què trobem a faltar?
+Louis Pasteur and vaccination work (20)
+Edison's storage battery (6)
+telephone (4)
+
+
+* The Challange
+La connectivitat
+
+"IoT is all about connecting sensors, actuators, and devices to a network and enabling the collection, exchange, and analysis of generated information."
+
+L'anunciat és simple però té moltes implicacions.
+
+
+* On estem
+Gràfica d'espectatives On esta situat IoT
+
+.image image/emerging-tech-hc-2015.png
+
+* Història de la conectivitat
+La transmissió de la informació
+Cable
+- Telegrafia
+- Telèfon
+
+* Les xarxes de telecomunicació
+Punt a punt
+[[http://twistedsifter.com/2014/08/stockholm-telephone-tower-connects-5000-lines/][500' linies de telfon conectades a Stockholm]]
+
+.image .image/stockholm-telephone-tower-1887-1913-over-5000-telephone-lines-connected-6.jpg
+
+.image .image/Women Telephone Operators at Work (9).jpg
+
+http://www.vintag.es/2014/11/20-vintage-photos-of-women-telephone.html
+
+* Digitalització
+POTS (transmissió analògica)
+ISDN (RDSI transmissió Digital - Veu i dades)
+DSL (ADSL)
+
+* Radio
+- Radio
+- Radio telegrafia
+
+EDGE, GSM(2G) ⇒ GPRS, UMTS (3G), HDSPA, LTE (4G), 5G
+M2M
+
+
+* La modulació
+Densitat de informació.
+,V34, V92 fregan el limit teòric.
+La transmissió inalambrica encara esta molt lluny.
+
+
+* Les xarxes commutades
+Les xarxes d'ordinadors
+
+.image image/NetworkTopologies.svg
+
+
+* Què és Internet?
+Definició
+The global communication network that allows almost all computers worldwide to connect and exchange information.
+
+The Internet is the global system of interconnected computer networks that use the Internet protocol suite (TCP/IP) to link devices worldwide.
+
+in the 1960s to build robust, fault-tolerant communication via computer networks.
+
+El 29 d'octubre de 1969 arrencava a la UCLA (Universitat de Califòrnia a Los Angeles) el primer node d'aquesta xarxa, anomenada ARPANET.[9] Però tècnicament el naixement d'Internet, es produí l'1 de gener de 1983,[10] amb la primera xarxa de llarg abast (WAN) basada en tecnologia TCP/IP, posada en marxa per la National Science Foundation (NSF) dels EUA. L'any 1995, aquesta xarxa s'obrí als interessos comercials.
+
+
+* Els paquets
+1961. El mes de juliol, Leonard Kleinrock va publicar des del MIT el primer document sobre la teoria de commutació de paquets. Kleinrock va convèncer Lawrence Roberts de la factibilitat teòrica de les comunicacions via paquets en comptes de circuits
+
+El 1965, Roberts va connectar un ordinador TX2 a Massachusetts amb un Q-32 ubicat a Califòrnia a través d'una línia telefònica commutada de baixa velocitat,
+La primera xarxa interconnectada va néixer el 21 de novembre de 1969, quan es creà el primer enllaç entre les universitats d'UCLA i la de Stanford per mitjà d'una línia telefònica commutada.
+
+L'any 1973, la DARPA iniciés un programa de recerca sobre possibles tècniques per interconnectar xarxes de diferents classes, orientades al trànsit de paquets. Amb aquesta finalitat, van desenvolupar nous protocols de comunicacions que permetessin aquest intercanvi d'informació de forma "transparent" per a les computadores connectades. De la filosofia del projecte va sorgir el nom de "Internet".
+
+2006. El 3 de gener, Internet va arribar als mil cent milions d'usuaris.
+2016 el trànsit per mòbil supera el dels ordinadors.
+
+El maig de 1974, l'Institute of Electrical and Electronics Engineers (Institut d'Enginyers Elèctrics i Electrònics) o IEEE va publicar un document titulat A Protocol for Packet Network Interconnection
+
+Transmission Control Program (TCP) - Transport
+Internet Protocol o IP - 
+
+
+* Enviament IP
+
+Feu arribar el sobre a la fila 4 seient 5
+
+* IPv4
+
+.image image/IPv4-packet-hedar1.jpg _ 350
+
+
+* IPv6
+
+* Internet Protocol
+IPv4 utilitza adreces de 32 bits (4,3 × 10^9, Direccions), 
+IPv6 utilitza adreces de 128 bits (3,4 × 10^38 adreces).
+
+
+* Els pilars
+- Hardware
+- Xarxes
+- Software
+
+
+* Hardware Els actors
+- Dispositius (Things)
+- Gateways (accessos a la xarxa)
+- IoT Cloud platforms (enterprese back-end)
+
+
+* Dispositius
+- Origen de les dades.
+- Interacció amb el món físic.
+
+- Limitacions
+-- en mida, potencia, energia disponible, en capacitat de càlcul (MCU).
+
+
+* Gateways
+- Accés a les xarxes internes/externes
+- Punt d'agregació.
+- Capacitat de processat i d'emmagatzematge.
+- Sota un sistema operatiu
+- Gestió remota.
+- Intolerabilitat entre dispositius.
+- Tolerància a la latència, desconnexió
+- Anàlisis a la frontera.
+
+* IoT Cloud Platforms
+
+OpenShift, AWS, Micrsoft Azure, Cloud Foundry
+FIWARE
+
+- Registre i gestió dels dispositius.
+- Gestió i emmagatzematge de dades.
+- Gestió d'events.
+- Anàlisis de dades.
+- Aplicació de regles de negoci.
+
+- Seguretat.
+- Metadata.
+- Eines de desenvolupament.
+
+- API
+
+
+* Desplegament de la xarxa
+Topologia
+- Star
+- Mesh
+
+Capacitat de transport de la informació
+- Velocitat
+- Latència
+- Abast
+
+
+
+* LANs
+- Personal
+- Local Area Network
+- WAN Wide Area Network
+
+Wi-Fi, Bluetooth, 
+ZigBee, Z-WAve
+6LoWPAN
+Ethernet
+Satellit
+
+
+* PLAN, 
+- 802.11n Wireless LAN
+- Bluetooth 4.1
+- Bluethoot Low Energy (BLE)
+
+
+* WAN Propietari
+- LoRaWAN
+- Sigfox
+
+
+* WAN Standards
+OMA
+- EDGE, GSM(2G) ⇒ GPRS, UMTS (3G), HDSPA, LTE (4G), 5G
+- LTE diferents categories.
+- LTE-NB orientada a IoT. 
+
+
+
+* Disositius amb capacitats limitades
+- MQTT
+- CoAP
+
+
+* Device Management
+Què fer quant n'hi han un munt per controlar?
+Reprogramació dels dispositius.
+Monitorització de l'estat.
+
+- OMA Lightweight M2M
+
+
+* Data Processing
+-
+
+* By Open 
+- Open software
+- Open hardware
+
+
+* Open Source
+Operating Systems (Linux)
+Big Data (Apache Hadoop, Apache Cassandra)
+Middleware (Apache HTTP Server, Apache Tomcat, Eclipse Jetty)
+Cloud (OpenStack, Cloud Foundry, Kubernetes)
+Microservices (Docker).
+
+* FIWARE
+
+
+
+
+* IoT Stacks
+
+.image image/w704.png
+
+
+** Qué hem d'entendre com IoT? Què no és IoT. 
+* Què no és IoT. 
+
+* Qué hem d'entendre com IoT? 
+
+
+* Europa EEUU
+- Smart Cities
+- Home Products Nest
+
+Barcelona capital Mobile i actor important en Smart Cities/IoT
+
+* IoT al nostre voltant
+SONOS
+Domotica, control de temperaura (NEST)
+ 
+
+
+* IoT i filosofia
+Controlar vs col·laborar.
+Centralització vs computació distribuida
+Corporacions vs serveis personals
+Administració vs Xarxes ciutadanes
+Propietari vs Standard
+Secret vs Open Develpment
+Concentració vs econòmia col·laborativa 
+Privileguis vs Igualtat d'oportunitats
+
+* Electrònica
+La més democràtica de totes les tecnològie que han existit.
+Igualtat d'oportunitats per a tots els ciutadans.
+Cohesió
+
+
+** Negoci
+Transport
+Salut
+Domòtica
+Optimització de la industria
+Gestió de la pol·lució 
+
+[[http://www.navigantresearch.com/research/market-data-iot-for-residential-energy-customers][According to Navigant Research, global revenue attributed to residential IoT devices is expected to grow from $26.5 billion in 2016 to $117.3 billion in 2026.]]
+
+
+* Automatització
+If This, Then That (IFTTT)
+[[https://ifttt.com/collections/iot][Cadena d'events que s'executen segons unes regles condicions]]
+
+
+* Serveis
+Gestió integrada dels nostres recursos.
+Optimització de recursos i despesses.
+Hearld : Manteniment / Telemedecina
+
+
+* Industria 4.0
+Manteniment de les infraestructures
+Regulacions estrictes
+Cost-effective 
+
+Optimització de processos.
+Eficiència en costos.
+Eficiència energètica.
+
+
+* Migració vers la industria 4.0
+Augment de la fiabilitat, reducció del manteniment.
+Proces progressiu de reemplaçament de tots els components.
+
+* Automatització
+“having everything imaginable connected to a network so that information from all these connected things can be stored, transferred, analysed and acted upon”.
+
+
+* Interoperabilitat
+
+El sistema ha de funcionar com un tot, no com elements individuals.
+
+* Coordinació
+Coordinació entre producció i distribució.
+
+*Ubikwa negoci
+La monitorització de les sitges permet una millora en la gestió de la producció tant en la granja com per el productor de pinso.
+Reducció de costos i riscos
+Gestió de la producció i de la cadena de distribució
+
+* Ubikwa 
+Participació Accelerador SmartAgriFood de FIWARE.
+Participació en les dues fases.
+Seleccionades com una de les tres High Flyers.
+
+Desenvolupament nou hardware de nmesura
+Xarxa de sensors 6LoWPAN
+Gateway amb capacitats de IoT Device management
+Backend FIWARE
+
+Entre les primeres 12 empreses amb la cerificació FIWARE IoT Ready
+Desenvolupamanent en un temps record.
+
+* Actors a Girona
+Exiteix un nucli que pot crear una masa crítica.
+Ubikwa
+GRN
+Megatró
+Serveis Web
+UdG (master Smart Cities)
+Parc tecnològic
+ICRA
+Tecnoateneu - FADELab
+Girona Empren
+
+
+
+
+* Intel·ligència Embedded
+Una major capacitat de comput i de memòria en cada component.
+
+
+
+
+* Flog computing
+Descentralització
+Processat en el nodes finals de la xarxa, a prop on se generen les dades
+Reducció del temps de resposta
+
+Billions of previously unconnected devices are
+generating more than two exabytes of data each day. An estimated 50 billion “things” will be connected to the
+Internet by 2020
+
+* Replentajamnet de projectes previs
+Bonal
+
+
+* Pluja d'idees
+Del carro de la compra intel·ligent a les escombraries intel·ligents.
+
+* Especulació
+Ques és intel·ligencia
+
+Intel·ligencia colectiva, és el resultat de la interacció entre els seus membres.
+L'individu és incapaç de tenir una visio complerta
+Necesitat de col·laborar per poder superar la dificultat
+
+"A colony is analogous to a brain where there are lots of neurons, each of which can only do something very simple, but together the whole brain can think. None of the neurons can think ant, but the brain can think ant, though nothing in the brain told that neuron to think ant." 
+http://news.stanford.edu/pr/93/931115Arc3062.html
+
+* Agraments
+Acceleració inicial
+- GRN (Esteve Camós, Jordi Fabregas)
+- Natcho Martin (UdG)
+- Marc Fàbregas,  (Zolertia)
+- Contiki comunity (Antonio Lignan)
+
+Companys
+- Jaume Gelada
+- David Raba
+- Salvador Gurt
+- Marc Haupt
+
+
+
+
+
+
+
+
+
+
+* References
+
+[[https://www.linkedin.com/pulse/three-software-stacks-required-internet-things-iot-ian-skerrett?trk=pulse_spock-articles][Three Software Stacks Required for the Internet of Things (IoT)]]
+
+
+
+Makers
+- [[https://www.raspberrypi.org/documentation/hardware/raspberrypi/][Raspberry Pi Hardware]]
+- [[https://www.element14.com/community/community/raspberry-pi][Raspberry Pi Element14.com]]
+- [[http://www.instructables.com/tag/type-id/category-technology/channel-raspberry-pi/][Instructables - Raspberry Pi Channel]]
+
+Programmers
+- [[https://www.raspberrypi.org/resources/learn/][Exercises to learn with Raspberry Pi]]
+- [[https://www.raspberrypi.org/hour-of-code/][Hour of Code activities]]
+- [[https://googlecreativelab.github.io/coder/][CODER for Raspberry Pi]]
+
+
+Documentation
+- [[https://www.raspberrypi.org/help/faqs/][Raspberry Pi FAQs]]
+- [[https://en.wikipedia.org/wiki/Raspberry_Pi][Raspberry Pi - Wikipedia]]
+
+https://documents.software.dell.com/sonicos/5.9/administration-guide/appendices/ipv6/appendix-c-ipv6
+
+
