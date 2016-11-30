@@ -190,7 +190,7 @@ Feu arribar el sobre a la fila 4 seient 5
 
 * IPv4
 
-.image image/IPv4-packet-hedar1.jpg _ 450
+.image image/IPv4-packet-hedar1.jpg _ 600
 
 
 * L'esperada IPv6
@@ -199,6 +199,11 @@ Feu arribar el sobre a la fila 4 seient 5
 IPv4 utilitza adreces de 32 bits (4,3 × 10^9, Direccions), 
 IPv6 utilitza adreces de 128 bits (3,4 × 10^38 adreces).
 
+Una adreça única per a cada cosa.
+
+.image http://www.worldipv6launch.org/wp-content/themes/ipv6/downloads/World_IPv6_launch_logo_256.png
+
+.link http://www.internetsociety.org/what-we-do/internet-technology-matters/ipv6 
 
 * Els pilars de la IoT
 - Hardware
@@ -238,14 +243,11 @@ Limitacions
 	FIWARE
 
 - Registre i gestió dels dispositius.
-- Gestió i emmagatzematge de dades.
-- Gestió d'events.
-- Anàlisis de dades.
-- Aplicació de regles de negoci.
-- Seguretat.
-- Metadata.
-- Eines de desenvolupament.
-- API
+- Gestió i emmagatzematge de dades. Gestió d'events.
+- Metadata. Anàlisis de dades. Aplicació de regles de negoci.
+- Seguretat. Eines de desenvolupament. API.
+
+.image http://d2kv389z282s26.cloudfront.net/wp-content/blogs.dir/1/files/2016/02/network-782707_1280.png _ 350
 
 
 * Desplegament de la xarxa
@@ -261,13 +263,12 @@ Topologia
 - Mesh
 
 * LANs
-- PLAN Personal Area Network
+- PLAN Personal Area Network (Body Area Network)
 - LAN Local Area Network
 - MAN Metropolitan Area Network
 - WAN Wide Area Network
-- Body Area Network
 
-.image http://idata.over-blog.com/4/34/24/78/Cisco-Hadware/Cisco-Products/WAN-MAN-LAN-and-PAN.jpg _ 350
+.image http://idata.over-blog.com/4/34/24/78/Cisco-Hadware/Cisco-Products/WAN-MAN-LAN-and-PAN.jpg _ 400
 .caption [[http://ciscorouterswitch.over-blog.com/article-network-types-lan-wan-pan-and-man-123597502.html][http://ciscorouterswitch.over-blog.com/article-network-types-lan-wan-pan-and-man-123597502.html]]
 
 * Xarxes conegudes al nostre voltant
@@ -295,21 +296,21 @@ Topologia Star
 
 .image image/diagrama_sigfox_1_small.jpg _ 350
 
-* WAN Standards
+* WAN Standards - OMA (Open Mobile Alliance)
 .image https://upload.wikimedia.org/wikipedia/en/b/b7/OMA_logo.png
 
-OMA (Open Mobile Alliance) 
 
-
-- GSM(2G) ⇒ GPRS, EDGE; UMTS (3G); HDPA; LTE (4G); 5G
+- GSM(2G) ⇒ GPRS, EDGE; UMTS (3G); HSPA; LTE (4G); 5G
 - LTE diferents categories.
-- LTE-NB orientada a IoT. 
+- NB-LTE orientada a IoT. 
 
+.image http://mistbase.com/wp-content/uploads/2016/01/Mistbase_lte_tech-1024x602.jpg _ 400
+.caption [[http://mistbase.com/technology/][http://mistbase.com/technology/]]
 
 * Protocols dispositius amb capacitats limitades.
 
 * MQTT (Message Queuing Telemetry Transport)
-[[http://mqtt.org/faq][MQTT]] The MQTT protocol enables a publish/subscribe messaging model in an extremely lightweight way.
+The [[http://mqtt.org/faq][MQTT]] protocol enables a publish/subscribe messaging model in an extremely lightweight way.
 
 MQTT-SN (MQTT For Sensor Networks) 
 
@@ -321,7 +322,7 @@ MQTT protocol is based on top of TCP/IP
 
 
 * 6LoWPAN.
-.image image/6lowpan.jpg _ 150
+: .image image/6lowpan.jpg _ 100
 
     IEEE 802.15.4 PHY
     IEEE 802.15.4 MAC
@@ -340,9 +341,9 @@ MQTT protocol is based on top of TCP/IP
 CoAP is designed to easily translate HTTP to CoRE (Constrained Resource Enviornments) devices.
 
 - Client/Server model
-- RESTful GET, PUT, POST and DELETE resources.
+- RESTful implement GET, PUT, POST and DELETE resources.
 - Low header overhead and parsing complexity
-- UDP, no TCP.
+- *UDP*, no TCP.
 - Support for the *discovery* of resources provided by known CoAP services
 - Simple subscription for a resource
 - Push notifications (Observe)
@@ -367,18 +368,21 @@ Monitorització de l'estat.
 .image image/w704.png _ 800
 
 
-* By Open. 
+* Be Open. 
 - Open software.
 - Open hardware.
 
 .image http://obsolescenciaprogramada.com/wp-content/uploads/2014/06/ed8e45bf086a57a613e7e9194eeb1742_large.png _ 550
 
-* Open Source
+* Open Source Success Examples
 Operating Systems (Linux)
 Big Data (Apache Hadoop, Apache Cassandra)
 Middleware (Apache HTTP Server, Apache Tomcat, Eclipse Jetty)
 Cloud (OpenStack, Cloud Foundry, Kubernetes)
 Microservices (Docker).
+
+.image https://www.docker.com/sites/default/files/legal/small_h.png _ 400
+
 
 * FIWARE.
 Resposta europea a la construcció de IoT.
@@ -388,7 +392,7 @@ Resposta europea a la construcció de IoT.
 .image image/ContextBroker.png
 
 
-* Qué hem d'entendre com IoT? Què no és IoT.
+* Què hem d'entendre com IoT? Què no és IoT.
 
 * Què no és IoT. 
 Un sistema de telemetria M2M.
@@ -398,6 +402,7 @@ Tenir una interficie Web per comandar-los.
 Una interficie d'usuari agradable al mòbil.
 Un conjunt d'esclaus que esperen de l'acció d'un supervisor humà.
 
+.image http://www.standard.net/image/2014/10/17/800x_a16-9_b0_q80_p1/fdd52a20-163e-4c5e-b073-917c218a4ce5.jpg _ 400
 
 * Què hem d'entendre com IoT? 
 Un conjunt de dispositius que estan disponibles a Internet.
@@ -407,6 +412,8 @@ Com a mínim IP fins al Gateway.
 Un sistema que respon a un conjunt d'estàndards i que es interoperatiu.
 Un conjunt d'elements que interaccionen i coordinen per realitzar una funció.
 
+.image image/6LowPan_mesh.jpg _ 500
+.caption [[http://processors.wiki.ti.com/index.php/File:20979_6LowPan_mesh.jpg][http://processors.wiki.ti.com/index.php/File:20979_6LowPan_mesh.jpg]]
 
 * Negoci.
 
@@ -436,11 +443,11 @@ Google Thread IPv6 IoT nertworking protocol.
 Transport
 Salut
 Domòtica
-Optimització de la industria
-Gestió de la pol·lució 
+Optimització de la industria. Gestió de la pol·lució 
 
 [[http://www.navigantresearch.com/research/market-data-iot-for-residential-energy-customers][According to Navigant Research, global revenue attributed to residential IoT devices is expected to grow from $26.5 billion in 2016 to $117.3 billion in 2026.]]
 
+.image https://oecorazon.files.wordpress.com/2015/03/estos-son-mis-valores.jpg?w=300&h=225 _ 350
 
 * Automatització
 If This, Then That (IFTTT)
@@ -458,7 +465,7 @@ Gestió integrada dels nostres recursos.
 Optimització de recursos i despesses.
  - Ubikwa => Gestió dels estocs de pinso a les granjes. 
 
-Hearld : Manteniment / Telemedecina
+Salut : Manteniment / Telemedecina
  - Starlab => Estimulació elèctrica extracraneal.
 
 
@@ -493,6 +500,7 @@ Eficiència energètica.
 
 - Interoperabilitat.
  El sistema ha de funcionar com un tot, no com elements individuals.
+ No podem dependré d'un proveidor.
 
 - Coordinació.
  Coordinació entre producció i distribució.
@@ -503,7 +511,7 @@ Reducció de costos i riscos laborals.
 Gestió de la producció i de la cadena de distribució.
 
 
-* Ubikwa.
+* Ubikwa i FIWARE.
 
 .image image/Accelerate_ill.png
 
@@ -513,7 +521,7 @@ Seleccionades com una de les tres High Flyers.
 
 .link https://www.fiware.org/success_stories/insylo
 
-: .video https://fiware-business.eu/insylo-smart-monitoring-of-silos-fiware-business-success-story/
+.link https://fiware-business.eu/insylo-smart-monitoring-of-silos-fiware-business-success-story/
 : .image image/FIWARE_Girona.png _ 350
 
 
@@ -558,15 +566,17 @@ Centralització vs computació distribuïda.
 Corporacions vs serveis personals.
 Administració vs Xarxes ciutadanes.
 Propietari vs Estàndard.
-Secret vs Open Develpment.
+Secretisme vs Open Develpment.
 Concentració vs economia col·laborativa. 
 Privilegis vs Igualtat d'oportunitats.
 
 * Electrònica.
 La més democràtica de totes les tecnologies que han existit.
 Igualtat d'oportunitats per a tots els ciutadans.
-Cohesió social
-També econòmica?
+Cohesió social. També econòmica?
+
+.image https://www.arduino.cc/en/uploads/Trademark/ArduinoCommunityLogo.png _ 250
+.image http://i916.photobucket.com/albums/ad8/markmezo/Pi_inside.gif _ 200
 
 * Les xarxes.
 En mans de grans corporacions.
@@ -584,15 +594,20 @@ The idea of actually trying to build a machine to perform useful reasoning may h
 * Intel·ligència Embedded.
 Una major capacitat de comput i de memòria en cada component.
 Molts dels aparells que tenim al voltant multipliquen les capacitats dels ordinadors que es varen fer servir per enviar l'home a la lluna.
-Els algoritmes genetics permeten mofificar el codi per optimitzar un resultat.
+Els algoritmes genetics permeten modificar el codi per optimitzar un resultat.
 La IA pot prendre noves decisions que escapen al nostre raonament.
 
+.image http://www.intel.com/content/dam/www/public/us/en/images/embedded/16x9/edc-quark-se-soc-16x9.png.rendition.intel.web.416.234.png _ 350
 
-* Flog computing.
+* Fog computing.
 Descentralització.
 Processat en el nodes finals de la xarxa, a prop on se generen les dades.
 Reducció del temps de resposta.
 
+ "fog computing" (closely related to cloud computing, but "closer to the ground").
+
+.image http://deliveryimages.acm.org/10.1145/2830000/2822875/ins04.gif _ 300
+.caption [[http://ubiquity.acm.org/article.cfm?id=2822875][http://ubiquity.acm.org/article.cfm?id=2822875]]
 Billions of previously unconnected devices are generating more than two exabytes of data each day. An estimated 50 billion “things” will be connected to the Internet by 2020.
 
 * Especulació.
@@ -603,8 +618,9 @@ Billions of previously unconnected devices are generating more than two exabytes
 - the ability to learn or understand things or to deal with new or difficult situations.
 - the ability to apply knowledge to manipulate one's environment or to think abstractly as measured by objective criteria.
 
+.image https://i.guim.co.uk/img/media/116fb4672317c88c30b4e308dc0b871a3470b420/0_0_5124_3075/master/5124.jpg?w=620&q=55&auto=format&usm=12&fit=max&s=be9296b67b444edf2c437d23e3444361 _ 450
+.caption A chimpanzee uses a stick to catch food. Photograph: James Balog/Getty Images 
 
- 
 * L'acte d'entendre - the act of understanding
 
 Colloquially, the term "artificial intelligence" is applied when a machine mimics "cognitive" functions that humans associate with other human minds, such as "learning" and "problem solving"
@@ -653,38 +669,14 @@ Acceleració inicial.
 - Diego Vaquerizo. Un toc de realitat si us plau High Flyiers ;).
 - Cristina (un toc distintiu, INSYLO logo), Toni (administració, PNL, ...).
 
-.image image/Twitter_ubikwa_team
 
 * Referencies.
-
 [[https://www.linkedin.com/pulse/three-software-stacks-required-internet-things-iot-ian-skerrett?trk=pulse_spock-articles][Three Software Stacks Required for the Internet of Things (IoT)]]
-
 [[https://www.thethingsnetwork.org/wiki/LoRaWAN/Overview][LoraWAN Overview]]
-
 [[https://github.com/TheThingsNetwork/ttn][Github TTN]]
-
 [[http://fiwaretourguide.readthedocs.io/en/latest/][Quick FIWARE Tour Guide]]
 [[https://www.quantamagazine.org/20140409-the-remarkable-self-organization-of-ants/][The Remarkable Self-Organization of Ants]]
-
-IoT background
-- [[http://www.postscapes.com/internet-of-things-protocols/][IoT Standards and Protocols]]
-
+[[http://www.postscapes.com/internet-of-things-protocols/][IoT Standards and Protocols]]
 [[https://www.lora-alliance.org/What-Is-LoRa/Technology][LoRA Alliance Technology]]
-
-.link http://www.ti.com/lsds/ti/wireless-connectivity/6lowpan/overview.page 6LoWPAN Overview
-
-LoRaWAN data rates range from 0.3 kbps to 50 kbps.
-
-* Market
-
-- [[https://www.rs-online.com/designspark/a-closer-look-at-lorawan-and-the-things-network][RS-Online LoRaWAN]]
-
-
-IoT Impact
-
--
-- https://www.cooking-hacks.com/documentation/tutorials/sigfox-connectivity-arduino-raspberry-pi-868mhz-europe-900mhz-us/
-
-
-* Tools
-.link https://github.com/davelaursen/present-plus
+[[http://www.ti.com/lsds/ti/wireless-connectivity/6lowpan/overview.page][TI 6LoWPAN Overview]]
+[[https://www.rs-online.com/designspark/a-closer-look-at-lorawan-and-the-things-network][RS-Online LoRaWAN]]
